@@ -25,7 +25,7 @@ function Portfolio(props) {
                             <p className="card-text">A single paged web application that you're viewing right now! The site outlines my portfolio and accomplishments</p>
                             <p className="card-text">Frontend: React Native</p>
                             <p className="card-text"></p>
-                            <a href="/" className="btn btn-primary">View</a>
+                            <a href={process.env.PUBLIC_URL} className="btn btn-primary">View</a>
                         </div>
                     </div>
                 </div>
