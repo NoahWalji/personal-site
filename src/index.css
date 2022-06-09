@@ -170,10 +170,20 @@ svg {
   height: 1000px;
 }
 
-
 @media screen and (max-width: 700px) {
   #experienceLink {
     height: 1300px;
+  }
+  .nav-link {
+    font-size: 16px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  #experienceLink {
+    height: 1850px;
+  }
+  .nav-link {
+    font-size: 16px !important;
   }
 }
 @media screen and (max-width: 800px) {
@@ -187,7 +197,7 @@ svg {
   left: 31px;
   }
   #aboutLink {
-    height: 50%;
+    height: 70%;
   }
   
   .timeline-container {
