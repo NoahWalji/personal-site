@@ -3,7 +3,7 @@ import React from 'react';
 function Hero(props) {
     return (
         <div className="wrapper">
-            <img src="/pfp.png" alt="Hello From Noah"></img>
+            <img src="./pfp.png" alt="Hello From Noah"></img>
             <div className="nameType">
                 <h1>Hi! I'm Noah!</h1>
             </div>
